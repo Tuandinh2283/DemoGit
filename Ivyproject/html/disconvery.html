@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styte.css">
+    <title>Project</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+        <div class="menu">
+            <li><a href="">Nữ</a>
+                <ul class="sub-menu">
+                    <li><a href="">Hàng mới về</a></li>
+                    <li><a href="">Collection</a></li>
+                    <li><a href="">Áo</a>
+                        <ul>
+                            <li><a href="">Áo sơ mi</a></li>
+                            <li><a href="">Áo thun</a></li>
+                            <li><a href="">vest</a></li>
+                            <li><a href="">Áo len</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Quần</a>
+                        <ul>
+                            <li><a href="">Quần jane</a></li>
+                            <li><a href="">Quần dài</a></li>
+                            <li><a href="">Quần lửng</a></li>
+                            <li><a href="">Quần</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="">Nam</a></li>
+            <li><a href="">Trẻ Em</a></li>
+            <li><a href="">SALE</a></li>
+            <li><a href="">Khẩu trang</a></li>
+            <li><a href="">BST</a></li>
+            <li><a href="">Thông Tin</a></li>
+        </div>
+        <div class="others">
+            <li><input placeholder="Tìm kiếm" type="text"><i class="fas fa-search"></i></li>
+            <li><a class="fa fa-paw" href=""></a></li>
+            <li><a class="fa fa-user" href=""></a></li>
+            <li><a class="fa fa-shopping-bag" href=""></a></li>
+        </div>
+    </header>
+<!------------------------delivery----------->
+<section class="delivery">
+    <div class="container">
+        <div class="delivery-top-wrap">
+            <div class="delivery-top">
+                <div class="delivery-top-delivery delivery-top-item">
+                    <i class="fa-solid fa-cart-shopping "></i>
+                </div>
+                <div class="delivery-top-adress delivery-top-item">
+                    <i class="fa-solid fa-location-dot "></i>
+                </div>
+                <div class="delivery-top-paywent delivery-top-item">
+                    <i class="fa-solid fa-money-check-dollar "></i>
+                </div>
+             </div>
+             </div> 
+    </div>
+    <div class="container">
+        <div class="delivery-content row">
+            <div class="delivery-content-left">
+                <p>Vui lòng chọn địa điểm giao hàng</p>
+                <div class="delivery-content-left-dangnhap row">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    <p>Đăng nhập (Nếu bạn đã có tài khoản)</p>
+                </div>
+            <div class="delivery-content-left-khachle row">
+                <input checked name="loaikhach" type="radio" >
+                <p><span style="font-weight: bold;">Khách lẻ</span>(Nếu bạn không muốn lưu lại thông tin)</p>
+            </div>
+            <div class="delivery-content-left-dangky row">
+                <input  name="loaikhach" type="radio" >
+                <p><span style="font-weight: bold;">Đăng ký</span>(Tạo mới tài khoản)</p>
+            </div>
+            <div class="delivery-content-left-input-top row">
+                <div class="delivery-content-left-input-top-item">
+                    <label for="">Họ tên <span style="color: red;">*</span></label>
+                    <input type="text">
+                </div>
+                <div class="delivery-content-left-input-top-item">
+                    <label for="">Điện thoại <span style="color: red;">*</span></label>
+                    <input type="text">
+                </div>
+                <div class="delivery-content-left-input-top-item">
+                    <label for="">Tỉnh/tp <span style="color: red;">*</span></label>
+                    <input type="text">
+                </div>
+                <div class="delivery-content-left-input-top-item">
+                    <label for="">Quận/huyện<span style="color: red;">*</span></label>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="delivery-content-left-input-bottom">
+                    <label for="">Địa chỉ <span style="color: red;">*</span></label>
+                    <input type="text">
+            </div>
+            <div class="delivery-content-left-buttom row">
+                <a href=""><p> <span>&#8592;</span>Quay lại giỏ hàng</p></a>
+                <button> <p style="font-weight: bold;"></p>Thanh toán và giao hàng</button>
+            </div>
+        </div>
+
+        <div class="delivery-content-right">
+            <table>
+                <tr>
+                    <th>Tên sản phẩm</th>
+                    <th>Giảm giá</th>
+                    <th>Số lượng</th>
+                    <th>Thành tiền</th>
+                </tr>
+                <tr>
+                    <td>Áo polo kẻ ngang</td>
+                    <td>-30%</td>
+                    <td>1</td>
+                    <td><p>590.000 <span>đ</span></p></td>
+                </tr>
+                <tr>
+                    <td>Áo nam kẻ ngang</td>
+                    <td>-30%</td>
+                    <td>1</td>
+                    <td><p>690.000 <span>đ</span></p></td>
+                </tr>
+                <tr>
+                        <td style="font-weight: bold;" colspan="3"> Tổng</td>
+                        <td style="font-weight: bold;" ><p>690.000 <span>đ</span></p></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;" colspan="3"> Thuế VAT</td>
+                        <td style="font-weight: bold;" ><p>69.000 <span>đ</span></p></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;" colspan="3"> Tổng tiền hàng</td>
+                        <td style="font-weight: bold;" ><p>769.000 <span>đ</span></p></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<!---------------------footer------------->
+
+ <div class="footer-top">
+    <li><a href=""><img src="images/img-congthuong.png" alt=""></a></li>
+    <li><a href="">Liên hệ</a></li>
+    <li><a href="">Tuyển dụng</a></li>
+    <li><a href="">Giới thiệu</a></li>
+    <li>
+        <a href="" class="fab fa-facebook-f"></a>
+        <a href="" class="fab fa-twitter"></a>
+        <a href="" class="fab fa-youtube"></a>
+    </li>
+</div>
+<div class="footer-center"><p> Công ty Cổ phần Dự Kim với số đăng ký kinh doanh: 0105777650 <br>
+    Địa chỉ đăng ký: Tổ dân phố Tháp, P.Đại Mỗ, Q.Nam Từ Liêm, TP.Hà Nội, Việt Nam 
+    Số điện thoại: <span>0243 205 2222/ 090 589 8683</span> 
+    </p>
+</div>
+<div class="footer-bottom">
+    ©IVYmoda All rights reserved
+</div>
+</body>
+<script src="../js/script.js"></script>
+</html>

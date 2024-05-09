@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../QLBV"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../BTL_PHP"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Project"
+	}
+}

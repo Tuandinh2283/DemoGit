@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styte.css">
+    <title>Project</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+        <div class="menu">
+            <li><a href="">Nữ</a>
+                <ul class="sub-menu">
+                    <li><a href="">Hàng mới về</a></li>
+                    <li><a href="">Collection</a></li>
+                    <li><a href="">Áo</a>
+                        <ul>
+                            <li><a href="">Áo sơ mi</a></li>
+                            <li><a href="">Áo thun</a></li>
+                            <li><a href="">vest</a></li>
+                            <li><a href="">Áo len</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Quần</a>
+                        <ul>
+                            <li><a href="">Quần jane</a></li>
+                            <li><a href="">Quần dài</a></li>
+                            <li><a href="">Quần lửng</a></li>
+                            <li><a href="">Quần</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="">Nam</a></li>
+            <li><a href="">Trẻ Em</a></li>
+            <li><a href="">SALE</a></li>
+            <li><a href="">Khẩu trang</a></li>
+            <li><a href="">BST</a></li>
+            <li><a href="">Thông Tin</a></li>
+        </div>
+        <div class="others">
+            <li><input placeholder="Tìm kiếm" type="text"><i class="fas fa-search"></i></li>
+            <li><a class="fa fa-paw" href=""></a></li>
+            <li><a class="fa fa-user" href=""></a></li>
+            <li><a class="fa fa-shopping-bag" href=""></a></li>
+        </div>
+    </header>
+    <!----------------------paymain-->
+    <section class="payment">
+        <div class="container">
+            <div class="payment-top-wrap">
+                <div class="payment-top">
+                    <div class="payment-top-delivery payment-top-item">
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                    <div class="payment-top-adress payment-top-item">
+                        <i class="fa-solid fa-location-dot "></i>
+                    </div>
+                    <div class="payment-top-payment payment-top-item">
+                        <i class="fa-solid fa-money-check-dollar "></i>
+                    </div>
+                 </div>
+            </div> 
+        </div>
+        <div class="container">
+            <div class="payment-content row">
+                <div class="payment-content-left">
+                    <div class="payment-content-left-methoud-delivery">
+                        <p style="font-weight: bold;">Phương thức giao hàng</p>
+                        <div class="payment-content-left-methoud-delivery-item">
+                            <input type="radio">
+                            <label for="">Giao hàng chuyển phát nhanh</label>
+                        </div>
+                    </div>
+                    <div class="payment-content-left-methoud-payment">
+                        <p style="font-weight: bold;">Phương thức thanh toán</p>
+                        <p>Mọi giao dịch được bảo mật và mã hóa . Thông tin thẻ tín dụng sẽ không bao giờ được lưu lại</p>
+                        <div class="payment-content-left-methoud-payment-item">
+                            <input type="radio">
+                            <label for="">Thanh toán bằng thẻ tín dụng (Onepay)</label>
+                        </div>
+                        <div class="payment-content-left-methoud-payment-item-img">
+                            <img src="images/visa.png" alt="" >
+                        </div>
+                        <div class="payment-content-left-methoud-payment-item">
+                            <input checked name="methoud-payment" type="radio">
+                            <label for="">Thanh toán bằng thẻ ATH (Onepay)</label>
+                        </div>
+                        <div class="payment-content-left-methoud-payment-item-img">
+                            <img src="images/nganhang18.png" alt="" width="10%" height="10%">
+                        </div>
+                        <div class="payment-content-left-methoud-payment-item">
+                            <input name = "methoud-payment" type="radio">
+                            <label for="">Thanh toán bằng Momo</label>
+                        </div>
+                        <div class="payment-content-left-methoud-payment-item-img">
+                            <img src="images/momo.jpg" alt="" width="10%" height="10%">
+                        </div>
+                        <div class="payment-content-left-methoud-payment-item">
+                            <input name="methoud-payment" type="radio">
+                            <label for="">Thu tiền tận nơi</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="payment-content-right">
+                    <div class="payment-content-right-button">
+                        <input type="text" placeholder="Mã giảm giá/Quà tặng">
+                        <button><i class="fa-solid fa-check"></i></button>
+                    </div>
+                    <div class="payment-content-right-button">
+                        <input type="text" placeholder="Mã cộng tác viên">
+                        <button><i class="fa-solid fa-check"></i></button>
+                    </div>
+                    <div class="payment-content-right-mnv">
+                        <select name="" id="">
+                            <option value="">Chọn mã nhân viên thân thiết</option>
+                            <option value="">0123</option>
+                            <option value="">1234</option>
+                            <option value="">2345</option>
+                            <option value="">3456</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="payment-content-right-payment">
+                <button>Tiếp tục thanh toán</button>
+
+            </div>
+        </div>
+    </section>
+    <!---------------------footer------------->
+
+ <div class="footer-top">
+    <li><a href=""><img src="images/img-congthuong.png" alt=""></a></li>
+    <li><a href="">Liên hệ</a></li>
+    <li><a href="">Tuyển dụng</a></li>
+    <li><a href="">Giới thiệu</a></li>
+    <li>
+        <a href="" class="fab fa-facebook-f"></a>
+        <a href="" class="fab fa-twitter"></a>
+        <a href="" class="fab fa-youtube"></a>
+    </li>
+</div>
+<div class="footer-center"><p> Công ty Cổ phần Dự Kim với số đăng ký kinh doanh: 0105777650 <br>
+    Địa chỉ đăng ký: Tổ dân phố Tháp, P.Đại Mỗ, Q.Nam Từ Liêm, TP.Hà Nội, Việt Nam 
+    Số điện thoại: <span>0243 205 2222/ 090 589 8683</span> 
+    </p>
+</div>
+<div class="footer-bottom">
+    ©IVYmoda All rights reserved
+</div>
+</body>
+</html>
